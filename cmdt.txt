@@ -1,1 +1,1 @@
-%TEMP%
+powershell.exe -c "$env:TEMP"
