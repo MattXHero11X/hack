@@ -1,1 +1,1 @@
-powershell.exe -c "$env:TEMP"
+powershell.exe -c "echo $env:TEMP"
