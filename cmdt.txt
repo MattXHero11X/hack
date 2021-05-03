@@ -1,1 +1,1 @@
-powershell.exe -c "echo $env:TEMP"
+%TEMP%
